@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OwinAppDemo.Controller</name>
+    </assembly>
+    <members>
+        <member name="M:OwinAppDemo.Controller.Controllers.DemoController.GetAll">
+            <summary>
+            Get all values
+            </summary>
+            <returns>List of values</returns>
+        </member>
+        <member name="M:OwinAppDemo.Controller.Controllers.DemoController.Get(System.Int32)">
+            <summary>
+            Get value by id
+            </summary>
+            <param name="id"></param>
+            <returns>List of values</returns>
+        </member>
+        <member name="M:OwinAppDemo.Controller.Controllers.DemoController.GetAnonymous">
+            <summary>
+            Get all values without auth key
+            </summary>
+            <returns>List of values</returns>
+        </member>
+        <member name="M:OwinAppDemo.Controller.Controllers.DemoController.GetAllFromService">
+            <summary>
+            Get all values from service
+            </summary>
+            <returns>List of values</returns>
+        </member>
+    </members>
+</doc>
